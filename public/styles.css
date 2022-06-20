@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: grid;
+  min-height: 100vh;
+}
+
+.Game {
+  margin: auto;
+  padding-bottom: 15vh;
+}
+
+.Game-status {}
+
+.Game-grid {
+  display: grid;
+  width: 18rem;
+  height: 18rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.25rem;
+}
+
+.Game-square {
+  border: 1px solid blue;
+}
+
+.Game-controls {}
+
+.Game-start,
+.Game-reset {}
